@@ -9,4 +9,17 @@ h3{
     text-align: center;
 }
 
+.botao_calculo{
+    background:black;
+    color:white;
+}
+.botao_calculo:hover{
+    border: white;
+}
+
+.texto_comando{
+    font-style: bold;
+}
+
+
 
