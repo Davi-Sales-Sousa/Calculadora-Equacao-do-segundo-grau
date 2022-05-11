@@ -1,5 +1,5 @@
 body{
-    background: url(/Projeto/img/math.png);
+    background: url(/img/math.png);
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:black;
@@ -19,6 +19,14 @@ h3{
 
 .texto_comando{
     font-style: bold;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
 }
 
 
