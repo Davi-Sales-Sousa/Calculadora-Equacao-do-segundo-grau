@@ -13,7 +13,7 @@ function Raizes(){
     else if(c_a == 0 && c_b != 0 && c_c != 0){
         res.innerHTML = `<h5>Resultado</h5> <h5>x = ${-c_c/c_b}</h5>`;
     }
-    else if(c_a != 0 && c_b != 0 && c_c != 0){
+    else if(c_a != 0 || c_b != 0 || c_c != 0){
         var delta = c_b**2 - 4*c_a*c_c;
 
         if(delta >= 0){
